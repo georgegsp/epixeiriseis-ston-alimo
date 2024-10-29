@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #28a745;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+#hero {
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+}
+
+#hero p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+#hero .btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#hero .btn:hover {
+  background-color: #218838;
+}
+
+#directory-info {
+  padding: 50px 0;
+  text-align: center;
+}
+
+#directory-info h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#directory-info p {
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+#cta {
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#cta h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#cta p {
+  font-size: 1.2rem;
+}
+
+#cta .btn {
+  background-color: white;
+  color: #28a745;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cta .btn:hover {
+  background-color: #ddd;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  text-align: center;
+  color: #333;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+footer a {
+  color: #28a745;
+}
